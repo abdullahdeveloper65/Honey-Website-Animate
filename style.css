@@ -1,0 +1,357 @@
+nav{
+    width: 100%;
+    border-bottom: 2px solid  rgb(195, 176, 129) ;
+    height: 120px;
+    background-image:url(background.png);
+    display: flex;
+}
+
+ul{
+    list-style:none;
+    display: flex;
+    gap: 60px;
+    margin-left: 17%;
+    margin-top: 3%;
+
+
+}
+li{
+    color: goldenrod;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.logo{
+    margin-left: 8%;
+    margin-top: 2%;
+}
+li:hover{
+    text-shadow:4px 4px 10px rgb(206, 215, 20);
+    border-radius: 10px;
+    width: 20px;
+    cursor:pointer;
+}
+.face{
+    margin-top: 2.8%;
+    margin-left: 10%;
+    align-items: center;
+}
+.web{
+    margin-top: 3%;
+    margin-left: 2%;
+}
+.twiiter{
+    margin-top: 2.9%;
+    margin-left: 2%;
+}
+.linked{
+    margin-top: 2.7%;
+    margin-left: 2%;
+}
+.face:hover{
+    cursor: pointer;
+    
+}
+.barface{
+    height: 40px;
+    width: 35px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    margin-top: 2.6%;
+    margin-left: 9%;
+    
+}
+.barface:hover{
+    box-shadow: 3px 3px 10px goldenrod;
+}
+.barweb{
+    height: 40px;
+    width: 37px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    margin-top: 2.6%;
+    margin-left: 2%;
+    padding-left: 0.6;
+}
+.web:hover{
+    cursor: pointer;
+}
+.barweb:hover{
+    box-shadow: 3px 3px 10px goldenrod;
+    
+}
+.bartwit{
+    height: 38px;
+    width: 40px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    margin-top: 2.6%;
+    margin-left: 2%;
+}
+.bartwit:hover{
+    box-shadow: 3px 3px 10px goldenrod;
+}
+.twit{
+    cursor: pointer;
+}
+.linked:hover{
+    cursor: pointer;
+}
+.barin{
+    height: 38px;
+    width: 40px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    margin-top: 2.6%;
+    margin-left: 2%;
+}
+.barin:hover{
+    box-shadow: 3px 3px 10px goldenrod;
+}
+.twiiter{
+    cursor: pointer;
+}
+.leave{
+    margin-top: 10%;
+    margin-left: 9%;
+}
+.back{
+    padding-top: 5%;
+}
+.absolute{
+    height: 640px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+body{
+
+    overflow-x: hidden;
+}
+body{
+    overflow-y: hidden;
+}
+.leaf{
+    margin-left: 5%;
+    margin-top: 3%;
+    position: absolute;
+    animation-name: mate;
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+
+
+}
+@keyframes mate {
+    from{
+      left: 20%;
+    }
+    to{
+        left: -20%;
+    }
+}
+h1{
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 5%;
+    font-size: 45px;
+    color: white;
+    animation-name: abid;
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+
+}
+@keyframes abid {
+    from{
+        bottom: 31%;
+    }
+    to{
+        bottom: -20%;
+    }
+}
+p{
+    color: white;
+    position: absolute;
+    margin-top: 24%;
+    margin-left: 5%;
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation-name: para;
+    animation-delay: 0s;
+    animation-duration: 2s;
+animation-fill-mode: forwards;
+    
+}
+@keyframes para {
+    from{
+        top: -20%;
+    }
+    to{
+        top: 19%;
+    }
+}
+button{
+    border-top-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    width: 140px;
+    height: 40px;
+    background-color: goldenrod;
+    border-radius: white;
+    color: white;
+    font-size: 17px;
+    margin-top: 33%;
+    margin-left: 8%;
+    font-weight: 200;
+    position: absolute;
+    animation-name: but;
+    animation-delay: 0s;
+    animation-duration: 2s;
+animation-fill-mode: forwards;
+}
+@keyframes but {
+    from{
+        bottom: -9%;
+    }
+    to{
+        bottom: 10%;
+    }
+}
+button:hover{
+    background: transparent;
+    box-shadow: 0px 0px 10px goldenrod;
+    cursor: pointer;
+    position: relative;
+}
+.leaf2{
+    padding-left: 38%;
+    padding-top:10% ;
+    position: absolute;
+    animation-name: pata;
+    animation-delay: 0s;
+    animation-duration: 2s;
+animation-fill-mode: forwards;
+}
+@keyframes pata {
+    from{
+        left: -10%;
+    }
+    to{
+        left: 10%;
+    }
+}
+.main{
+    padding-left: 73%;
+    position: absolute;
+    animation-name: jam;
+    animation-delay: 0s;
+    animation-duration: 2s;
+animation-fill-mode: forwards;
+    
+}
+@keyframes jam {
+    from{
+        left: 10%;
+    }
+    to{
+        left: -10%;
+    }
+}
+.abee{
+    padding-bottom: 5%;
+    padding-right: 15%;
+    position: absolute;
+    animation-name: a-bee;
+    animation-delay: 0s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.dance{
+    padding-bottom: 8%;
+    position: absolute;
+    
+}
+
+  @keyframes a-bee {
+    from {
+      right: -60%;
+    }
+    to {
+      right: 10%;
+    }
+  }
+
+    
+  
+  .dance{
+    animation-name: bee1;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes bee1 {
+    from {
+      left: 60%;
+      bottom: 10%;
+      position: absolute;
+    }
+    to {
+      left: 4%;
+      bottom: 80%;
+    }
+  } 
+  
+
+.background{
+    position: absolute;
+}
+.letne{
+    position: absolute;
+    animation-name: bee2;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+     animation-direction: reverse;
+}
+@keyframes bee2 {
+    from{
+        left: 60%;
+      bottom: 10%;
+      position: absolute;
+    }
+    to {
+        left: 4%;
+        bottom: 80%;
+      }
+}
+.naughty{
+    position: absolute;
+    animation-name: hora;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+     animation-direction: reverse;
+}
+@keyframes hora {
+    from{
+        right: 60%;
+      bottom: 10%;
+      position: absolute;
+    }
+    to {
+        right: 4%;
+        bottom: 80%;
+      }
+}
+h2{
+    color: white;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    margin-left:78% ;
+    margin-top: 37%;
+}
+  
